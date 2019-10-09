@@ -1,0 +1,57 @@
+<link href="https://fonts.googleapis.com/css?family=Archivo:700|Archivo+Narrow:700|Montserrat:600|Aleo:400|Lora:400" rel="stylesheet" />
+
+html, body {
+font-size: 10px;
+}
+
+h1 {
+margin-bottom: 3rem;
+font-family: Archivo;
+font-size: 4em;
+line-height: 5.4rem;
+font-weight: 700;
+font-style: normal;
+letter-spacing: 0.00em;
+text-align: left;
+/*text-decoration: underline;*/
+
+}
+
+
+h2 {
+margin-bottom: 2.6rem;
+font-family: Archivo ;
+font-size: 2.6em;
+line-height: 5.8rem;
+font-weight: 700;
+font-style: normal;
+letter-spacing: 0em;
+/*text-decoration: underline;*/
+color: #383838,#F9F9F9;
+text-align: center;
+}
+
+h3{
+  margin-bottom: 2.6rem;
+  font-family: Aleo ;
+  font-size: 2.5em;
+  line-height: 5.8rem;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 0em;
+  text-align: righpt;
+  color: #383838;
+}
+
+p {
+margin-bottom: 2.8rem;
+font-family: Aleo;
+font-size: 1.5em;
+line-height: 3.2rem;
+font-weight: 400;
+font-style: normal;
+letter-spacing: 0.02em;
+margin-left: 1em;
+margin-right: 1em;
+color: #383838,#F9F9F9;
+}

@@ -1,0 +1,168 @@
+html, body{
+background-color: #F9F9F9;
+scroll-behavior: smooth;
+
+}
+
+.ensemble{
+/*display: flex;
+justify-content: */
+z-index: 200;
+}
+
+.all {
+margin-left: 13em;
+
+
+}
+
+
+.titrage{
+display: flex;
+justify-content: space-around;
+
+}
+
+/*
+<div class="image1">
+  <img src="images/photo1.jpg" alt="photo1">
+</div>
+
+.image1{
+z-index: 200;
+}*/
+
+
+
+.titre {
+
+  width: 80%;
+  align-content: center;
+/* margin-top: 2em; */
+padding: 1em;
+color: #EECE02 ;
+z-index: 2;
+
+}
+
+
+
+.image1{
+
+  z-index:1;
+  position: absolute;
+margin-left: 20%;
+}
+
+.texte {
+
+
+text-align: center;
+  align-content: center;
+padding-top: 5em;
+margin-top: 3em;
+margin-bottom: 4em;
+color: #383838;
+}
+
+
+
+
+.paragraphe {
+margin: 10%;
+text-align: justify;
+
+
+/*
+column-width: 150px;
+column-gap: 5px;
+*/
+}
+
+.paragraphe2 {
+margin: 10%;
+text-align: justify;
+z-index: 2;
+
+/*
+column-width: 150px;
+column-gap: 5px;
+*/
+}
+
+.robot{
+  z-index: 1;
+  position: relative;
+
+
+}
+
+.backgris{
+  background-color: #383838;
+width: 100%;
+position: absolute;
+margin: 0 !important;
+}
+
+.paragraphe3 {
+margin: 10%;
+margin-left: 25%;
+text-align: justify;
+
+color: #F9F9F9;
+
+
+/*
+column-width: 150px;
+column-gap: 5px;
+*/
+}
+
+.neil {
+margin-left: 20.5%;
+
+  }
+
+.footer{
+width: 100%;
+height: 10em;
+background-color: #EECE02;
+color: #383838;
+position: absolute;
+text-align: center;
+
+}
+
+
+#links{
+  width: 175px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  z-index: 200;
+}
+
+#links li {
+  background: #383838 ;
+  color: white;
+  border: 0px solid  ;
+  margin-bottom: 1px ;
+}
+
+#links li a {
+  display: block ;
+  background: white;
+  color: black ;
+  font: 1em "Archivo",Archivo,sans-serif ;
+  line-height: 1em ;
+  text-align: center ;
+  text-decoration: none ;
+  padding: 4px 0 ;
+}
+
+#links li a:hover, #links li a:focus, #links li a:active {
+  background: #EECE02;
+  text-decoration: underline ;
+
+}
